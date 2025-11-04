@@ -29,7 +29,7 @@ python3 src/port_scanner.py -t scanme.nmap.org -p 1-1000
 
 # Test on localhost
 python3 src/port_scanner.py -t 127.0.0.1 -p 1-100
-
+<img width="1920" height="923" alt="Screenshot_2025-11-04_09_33_39" src="https://github.com/user-attachments/assets/f645b0fd-3cae-42c6-818b-f235f36dbefd" />
 
 ### Prerequisites
 
