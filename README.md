@@ -17,6 +17,20 @@ A beginner-friendly Python-based network security tool for discovering devices a
 
 ## 🚀 Installation
 
+# Make scripts executable
+chmod +x src/network_scanner.py
+chmod +x src/port_scanner.py
+
+# Test network scan (requires sudo)
+sudo python3 src/network_scanner.py -t (target ip)
+
+# Test on scanme.nmap.org (legal test server)
+python3 src/port_scanner.py -t scanme.nmap.org -p 1-1000
+
+# Test on localhost
+python3 src/port_scanner.py -t 127.0.0.1 -p 1-100
+
+
 ### Prerequisites
 
 - Python 3.8 or higher
